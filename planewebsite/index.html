@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Flight Tracker</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Fixed banner -->
+    <div id="header-banner">
+        <h1>Nhóm 14 - Live Flight Tracker</h1>
+    </div>
+    
+    <div class="main-container">
+        <!-- Map container -->
+        <div id="map"></div>
+        
+        <!-- Plane info panel -->
+        <div id="info-panel">
+            <div class="panel-header">
+                <h2>Flight Information</h2>
+                <button id="close-panel">×</button>
+            </div>
+            <div id="plane-details">
+                <p class="select-prompt">Select a plane to view details</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Leaflet JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
