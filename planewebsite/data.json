@@ -1,4 +1,4 @@
 [
-    {"hex":"8b8097", "flight":"VJC274 ", "lat":10.958313, "lon":106.539491, "altitude":10325, "track":45, "speed":294},
-    {"hex":"76d24b", "flight":"TGW305 ", "lat":10.748474, "lon":106.574628, "altitude":3750, "track":210, "speed":274}
-  ]
+{"hex":"8b8097", "flight":"VJC274  ", "lat":10.958313, "lon":106.539491, "altitude":10325, "track":45, "speed":294},
+{"hex":"76d24b", "flight":"TGW305  ", "lat":10.748474, "lon":106.574628, "altitude":3750, "track":210, "speed":274}
+]

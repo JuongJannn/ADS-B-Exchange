@@ -46,6 +46,8 @@ body {
     transition: width 0.3s ease;
     overflow: hidden;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    max-height: 100vh; /* Limit height to viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
 }
 
 #info-panel.open {
