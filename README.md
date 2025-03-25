@@ -7,12 +7,14 @@
 Clone project và chạy trên web server cục bộ.
 
 # Cấu trúc file
-| index.html |
-| script.js |
-| styles.css |
-| data.json |
-| placeholder-aircraft.jpg |
-| fetchdata.py |
+| File                      | Ghi chú           |
+|---------------------------|--------------------|
+| index.html                | Trang chính        |
+| script.js                 | Logic JavaScript   |
+| styles.css                | Giao diện CSS      |
+| data.json                 | Dữ liệu chuyến bay |
+| placeholder-aircraft.jpg  | Ảnh máy bay mặc định |
+| fetchdata.py              | Fetch dữ liệu từ API |
 
 # Sử dụng
 
@@ -21,10 +23,12 @@ Clone project và chạy trên web server cục bộ.
 - Xuất dữ liệu chuyến bay ra file JSON
 
 # Chức năng chính trong script.js
-| fetchPlaneData() // Lấy dữ liệu máy bay |
-| updatePlanes() // Cập nhật máy bay và lộ trình |
-| updatePlaneDetailsPanel() // Hiển thị chi tiết chuyến bay |
-| exportFlightData() // Xuất dữ liệu JSON |
+| Hàm                          | Mô tả                             |
+|-----------------------------|-----------------------------------|
+| fetchPlaneData()            | Lấy dữ liệu máy bay               |
+| updatePlanes()              | Cập nhật máy bay và lộ trình      |
+| updatePlaneDetailsPanel()   | Hiển thị chi tiết chuyến bay      |
+| exportFlightData()          | Xuất dữ liệu JSON                 |
 
 # Lưu ý khi sử dụng fetchdata.py
 
