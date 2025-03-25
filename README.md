@@ -8,7 +8,6 @@ Clone project và chạy trên web server cục bộ.
 
 # Cấu trúc file
 | index.html |
-| --- |
 | script.js |
 | styles.css |
 | data.json |
@@ -23,7 +22,6 @@ Clone project và chạy trên web server cục bộ.
 
 # Chức năng chính trong script.js
 | fetchPlaneData() // Lấy dữ liệu máy bay |
-| --- |
 | updatePlanes() // Cập nhật máy bay và lộ trình |
 | updatePlaneDetailsPanel() // Hiển thị chi tiết chuyến bay |
 | exportFlightData() // Xuất dữ liệu JSON |
