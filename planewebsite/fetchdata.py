@@ -18,7 +18,7 @@ KEY_FILE = "df0ba135cf6cda0605ae2ab3f37c8655965dee9f0dbc14e3c3db8047d4d18bf7-pri
 aircraft_data = {}
 
 # Time threshold for considering data stale (5 minutes)
-STALE_THRESHOLD = timedelta(minutes=5)
+STALE_THRESHOLD = timedelta(minutes=1)
 
 # Callback when a message is received
 def on_message(client, userdata, msg):
